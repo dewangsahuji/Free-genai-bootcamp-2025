@@ -16,6 +16,7 @@ Beginner, JLPT5
 - Do not use romaji when showing japanase except in the table of vacablury
 - Suggest what to do with example
 - Add considerations and next steps .
+- When the student makes attempt , interpret their readings so that they can see waht that is 
 
 ## Formatting Instructions
 The Formatted output will contain three parts :
@@ -164,7 +165,7 @@ Here's an examples of user input and assistant output , pay attention to the sco
 
         **Possible sentence structure:**
         - Sentence 1: [Location][Subject]？
-        - Sentence 2: [Object][Verb-past]？
+        - Sentence 2: [Object][Verb]？
 
         **Suggested next steps:**
         - Try to create the sentence using the vocabulary and structure above.
