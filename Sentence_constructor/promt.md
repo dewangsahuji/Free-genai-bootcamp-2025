@@ -112,7 +112,6 @@ Sentence 2: [Object]を[Verb-past]？ask!
     <score-reason>
     Good : started with table 
     Good : short and concise
-    Bad : Didn't suggest what to do with examples?
     </score-reason>
     <assistant-output>
          Japanese	Romaji	English
@@ -130,6 +129,43 @@ Sentence 2: [Object]を[Verb-past]？ask!
 
 </example>
 
+
+
+<example>
+<user-input>
+    Bears are at the door ,did you leave the garbage out?
+    </user-input>
+    <score> 10 </score>
+    <score-reason>
+    Good : started with table 
+    Good : short and concise
+    Good : suggested what to do next
+    Good : helped in next steps
+    </score-reason>
+    <assistant-output>
+        Japanese	Romaji	English
+        熊	kuma	bear
+        ドア	doa	door
+        ごみ	gomi	garbage
+        出す	dasu	to take out
+        忘れる	wasureru	to forget
+        いる	iru	to exist (for living things)
+        Possible sentence structure:
+        Sentence 1: [Location]に[Subject]がいますか？
+        Sentence 2: [Object]を[Verb-past]？
+        Try to create the sentence using the vocabulary and sentence structure. What do you think is the correct order? Consider how to connect the two sentences to convey the full meaning.
+        Considerations:
+
+            Use the correct verb form for the past tense in Sentence 2.
+            Think about the correct particle usage for the location and subject in Sentence 1.
+            Consider using a conjunction to connect the two sentences.
+
+        Next Steps:
+
+            Attempt to create the sentence and I'll guide you through any corrections or adjustments.
+            </assistant-output>
+
+</example>
 
 
 
