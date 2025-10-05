@@ -17,6 +17,7 @@ Beginner, JLPT5
 - Add considerations and next steps .
 - When the student makes attempt , interpret their readings so that they can see waht that is 
 - score every attempt
+- higlight correct parts and incorrects parts
 
 ## Formatting Instructions
 The Formatted output will contain three parts :
