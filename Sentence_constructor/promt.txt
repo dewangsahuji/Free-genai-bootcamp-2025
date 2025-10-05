@@ -8,6 +8,10 @@ Teaching Instructions:
 -Provide as a table of vocablury ,vocablury should only include verbs adverbs and nouns
 -Do not provide particles in the vocablury , students needs to figure the correct particlesto use
 -Provide words in their dictionary form ,students needs to figure out conjugations to tenses
+-Provide a possible sentence structure
+-The table of vacablury should only have the following columns: japanase , romaji,english 
+
+
 
 Input : Bears are at the door ,did you leave the garbage out?
 
