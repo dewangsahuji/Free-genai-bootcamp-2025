@@ -30,7 +30,7 @@ The Formatted output will contain three parts :
 - Do not provide particles in the vocablury table , students needs to figure the correct particles to use.
 
 ### Sentence structure 
-- Do not orovide the particles in the sentence structures
+- Do not Provide the particles in the sentence structures
 - 
 
 ### Clues and considerations
