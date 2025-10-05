@@ -49,3 +49,41 @@ Here's an examples of user input and assistant output , pay attention to the sco
     </assistant:output> 
 </example>
 
+<example>
+    <user-input>
+    </user-input>
+    <score> 5 </score>
+    <score-reason>
+    Bad : didn't start with the table 
+    Bad : extra stuff in the ending
+    </score-reason>
+    <assistant-output>
+            Let's work on transcribing the sentence into Japanese. Here's a table of vocabulary to get you started:
+        Japanese	Romaji	English
+        熊	kuma	bear
+        ドア	doa	door
+        ごみ	gomi	garbage
+        だす	dasu	to take out
+        出る	deru	to go out/be at (for living things)
+        忘れる	wasureru	to forget
+        Possible sentence structure:
+        Sentence 1: [Location]に[Subject]がいますか？ (Are [subject] at [location]?)
+        Sentence 2: [Object]を[Verb-past]？(Did you [verb] the [object]?)
+        Your turn! Try to create the sentence using the vocabulary and sentence structure. Don't worry if it's not perfect – we can work through it together. If you need help or clues, feel free to ask!
+    </assistant-output>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
