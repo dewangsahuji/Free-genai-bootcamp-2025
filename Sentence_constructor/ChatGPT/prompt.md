@@ -31,7 +31,50 @@ The Formatted output will contain three parts :
 
 ### Sentence structure 
 - Do not Provide the particles in the sentence structures
-- 
+- Do not provide the tenses in the sentence structure
+- Some examples
+  - “The cat is in the garden.” → [Subject][Location][Verb] → [Cat][garden][be]
+  - “I eat an apple.” → [Subject][Object][Verb] → [I][apple][eat]
+  - “She reads a book.” → [Subject][Object][Verb] → [She][book][read]
+  - “The dog is on the sofa.” → [Subject][Location][Verb] → [Dog][sofa][be]
+  - “They play soccer.” → [Subject][Object][Verb] → [They][soccer][play]
+  - “The teacher is in the classroom.” → [Subject][Location][Verb] → [Teacher][classroom][be]
+  - “The bird is on the tree.” → [Subject][Location][Verb] → [Bird][tree][be]
+  - “I drink water.” → [Subject][Object][Verb] → [I][water][drink]
+  - “The flowers are in the vase.” → [Subject][Location][Verb] → [Flowers][vase][be]
+  - “We watch a movie.” → [Subject][Object][Verb] → [We][movie][watch]
+  - “The book is on the desk.” → [Subject][Location][Verb] → [Book][desk][be]
+  - “I like cats.” → [Subject][Object][Adjective-feeling] → [I][cats][like]
+  - “She dislikes coffee.” → [Subject][Object][Adjective-feeling] → [She][coffee][dislike]
+  - “The car is in the garage.” → [Subject][Location][Verb] → [Car][garage][be]
+  - “He writes a letter.” → [Subject][Object][Verb] → [He][letter][write]
+  - “The shoes are under the table.” → [Subject][Location][Verb] → [Shoes][table][be]
+  - “I have a pen.” → [Subject][Thing][Verb-have] → [I][pen][have]
+  - “She has a dog.” → [Subject][Thing][Verb-have] → [She][dog][have]
+  - “The children are at the park.” → [Subject][Location][Verb] → [Children][park][be]
+  - “My mother is at home.” → [Subject][Location][Verb] → [Mother][home][be]
+  - “The phone is on the bed.” → [Subject][Location][Verb] → [Phone][bed][be]
+  - “I can swim.” → [Subject][Verb-can] → [I][swim][can]
+  - “She can cook.” → [Subject][Verb-can] → [She][cook][can]
+  - “They can speak Japanese.” → [Subject][Verb-can] → [They][speak Japanese][can]
+  - “The sky is blue.” → [Subject][Adjective] → [Sky][blue]
+  - “The flower is beautiful.” → [Subject][Adjective] → [Flower][beautiful]
+  - “The soup is hot.” → [Subject][Adjective] → [Soup][hot]
+  - “The car is new.” → [Subject][Adjective] → [Car][new]
+  - “The room is big.” → [Subject][Adjective] → [Room][big]
+  - “Yesterday he studied.” → [Time][Subject][Verb] → [Yesterday][he][study]
+  - “This morning I drank coffee.” → [Time][Subject][Verb] → [This morning][I][drink]
+  - “Tomorrow we will go.” → [Time][Subject][Verb] → [Tomorrow][we][go]
+  - “Last night she cooked dinner.” → [Time][Subject][Verb] → [Last night][she][cook]
+  - “Today it rains.” → [Time][Subject][Verb] → [Today][it][rain]
+  - “We have time.” → [Subject][Thing][Verb-have] → [We][time][have]
+  - “He has a car.” → [Subject][Thing][Verb-have] → [He][car][have]
+  - “We love music.” → [Subject][Object][Adjective-feeling] → [We][music][love]
+  - “He hates rain.” → [Subject][Object][Adjective-feeling] → [He][rain][hate]
+  - “They enjoy movies.” → [Subject][Object][Adjective-feeling] → [They][movies][enjoy]
+  - “We can go.” → [Subject][Verb-can] → [We][go][can]
+  - “He can sing.” → [Subject][Verb-can] → [He][sing][can]
+
 
 ### Clues and considerations
 - Try and provide a non-nested bulleted list
