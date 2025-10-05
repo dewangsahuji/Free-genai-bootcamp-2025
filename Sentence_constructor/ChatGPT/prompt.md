@@ -29,6 +29,11 @@ The Formatted output will contain three parts :
 - table should only verbs adverbs and nouns,adjectives.
 - The table of vacablury should only have the following columns: japanase , romaji , english.
 - Do not provide particles in the vocablury table , students needs to figure the correct particles to use.
+- Ensure there are no repeats in the table 
+- if there are more versions of words , show the simplest one
+
+
+
 
 ### Sentence structure 
 - Do not Provide the particles in the sentence structures
