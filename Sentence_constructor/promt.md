@@ -23,6 +23,7 @@ Beginner, JLPT5
 ## Student Input 
 Bears are at the door ,did you leave the garbage out?
 
+
 ## Examples
 Here's an examples of user input and assistant output , pay attention to the score because and why the example is scored the way it is.
 
@@ -38,10 +39,10 @@ Here's an examples of user input and assistant output , pay attention to the sco
     <assistant:output>
     Let's work on transcribing the sentence into Japanese. Here's a table of vocabulary to get you started:
     |Japanese |	Romaji	 | English
-    |熊	    |   kuma   | bear
-    |ドア	   |  doa	  |door
-    |ごみ	   |  gomi	  |garbage
-    |出す     |  dasu	  |to take out
+    |熊	     |   kuma   | bear
+    |ドア	    |  doa	   |door
+    |ごみ	    |  gomi	   |garbage
+    |出す     |  dasu	   |to take out
     |忘れる   | wasureru |to forget
     Possible sentence structure:
     Sentence 1: [Subject]はドアにいますか？ (Are [subject] at the door?)
@@ -64,13 +65,14 @@ Here's an examples of user input and assistant output , pay attention to the sco
     </score-reason>
     <assistant-output>
             Let's work on transcribing the sentence into Japanese. Here's a table of vocabulary to get you started:
-        Japanese	Romaji	English
-        熊	kuma	bear
-        ドア	doa	door
-        ごみ	gomi	garbage
-        だす	dasu	to take out
-        出る	deru	to go out/be at (for living things)
-        忘れる	wasureru	to forget
+        | Japanese | Romaji    | English                   |
+        |----------|-----------|---------------------------|
+        | 熊       | kuma      | bear                      |
+        | ドア     | doa       | door                      |
+        | ごみ     | gomi      | garbage                   |
+        | だす     | dasu      | to take out               |
+        | 出る     | deru      | to go out / be at         |
+        | 忘れる   | wasureru  | to forget                 |
         Possible sentence structure:
         Sentence 1: [Location]に[Subject]がいますか？ (Are [subject] at [location]?)
         Sentence 2: [Object]を[Verb-past]？(Did you [verb] the [object]?)
@@ -78,57 +80,6 @@ Here's an examples of user input and assistant output , pay attention to the sco
     </assistant-output>
 
 </example>
-
-<example>
-<user-input>
-    Bears are at the door ,did you leave the garbage out?
-    </user-input>
-    <score> 8 </score>
-    <score-reason>
-    Good : started with table 
-    Good : short and concise
-    Bad : Didn't suggest what to do next?
-    </score-reason>
-    <assistant-output>
-          Japanese	Romaji	English
-熊	kuma	bear
-ドア	doa	door
-ごみ	gomi	garbage
-出す	dasu	to take out
-忘れる	wasureru	to forget
-Possible sentence structure:
-Sentence 1: [Location]に[Subject]がいますか？
-Sentence 2: [Object]を[Verb-past]？ask!
-    </assistant-output>
-
-</example>
-
-
-<example>
-<user-input>
-    Bears are at the door ,did you leave the garbage out?
-    </user-input>
-    <score> 8 </score>
-    <score-reason>
-    Good : started with table 
-    Good : short and concise
-    </score-reason>
-    <assistant-output>
-         Japanese	Romaji	English
-        熊	kuma	bear
-        ドア	doa	door
-        ごみ	gomi	garbage
-        出す	dasu	to take out
-        忘れる	wasureru	to forget
-        いる	iru	to exist (for living things)
-        Possible sentence structure:
-        Sentence 1: [Location]に[Subject]がいますか？
-        Sentence 2: [Object]を[Verb-past]？
-        Try to create the sentence using the vocabulary and sentence structure. What do you think is the correct order?
-    </assistant-output>
-
-</example>
-
 
 
 <example>
@@ -143,29 +94,37 @@ Sentence 2: [Object]を[Verb-past]？ask!
     Good : helped in next steps
     </score-reason>
     <assistant-output>
-        Japanese	Romaji	English
-        熊	kuma	bear
-        ドア	doa	door
-        ごみ	gomi	garbage
-        出す	dasu	to take out
-        忘れる	wasureru	to forget
-        いる	iru	to exist (for living things)
-        Possible sentence structure:
-        Sentence 1: [Location]に[Subject]がいますか？
-        Sentence 2: [Object]を[Verb-past]？
-        Try to create the sentence using the vocabulary and sentence structure. What do you think is the correct order? Consider how to connect the two sentences to convey the full meaning.
-        Considerations:
+        | Japanese | Romaji   | English                |
+        |----------|----------|------------------------|
+        | 熊       | kuma     | bear                   |
+        | ドア     | doa      | door                   |
+        | ごみ     | gomi     | garbage                |
+        | 出す     | dasu     | to take out            |
+        | 忘れる   | wasureru | to forget              |
+        | いる     | iru      | to exist (living things)|
 
-            Use the correct verb form for the past tense in Sentence 2.
-            Think about the correct particle usage for the location and subject in Sentence 1.
-            Consider using a conjunction to connect the two sentences.
+        **Possible sentence structure:**
+        - Sentence 1: [Location]に[Subject]がいますか？
+        - Sentence 2: [Object]を[Verb-past]？
 
-        Next Steps:
+        **Suggested next steps:**
+        - Try to create the sentence using the vocabulary and structure above.
+        - Consider the correct verb form for past tense in Sentence 2.
+        - Think about the correct particle usage for location and subject in Sentence 1.
+        - Consider using a conjunction to connect the two sentences for full meaning.
 
-            Attempt to create the sentence and I'll guide you through any corrections or adjustments.
-            </assistant-output>
+        **What to do:**
+        - Attempt your own transcription. I’ll help with clues and corrections!
+        - Use the vocabulary table to find the right words.
+        - Pay attention to sentence structure and particle usage.
+        - If you’re unsure about a word or grammar point, ask for a hint.
+        - Try connecting both ideas into one sentence for a natural flow.
+        - Review your sentence for correct verb conjugation and word order.
 
 </example>
+
+## Student input 
+did you see the ravens this morning ? They were looking at the garden.
 
 
 
