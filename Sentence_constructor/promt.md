@@ -56,6 +56,8 @@ Here's an examples of user input and assistant output , pay attention to the sco
     <score-reason>
     Bad : didn't start with the table 
     Bad : extra stuff in the ending
+    Remove : Let's work on transcribing the sentence into Japanese. Here's a table of vocabulary to get you started:
+    Remove : Don't worry if it's not perfect – we can work through it together. If you need help or clues, feel free to 
     </score-reason>
     <assistant-output>
             Let's work on transcribing the sentence into Japanese. Here's a table of vocabulary to get you started:
