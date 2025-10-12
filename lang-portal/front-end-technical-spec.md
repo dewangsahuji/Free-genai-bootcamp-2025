@@ -174,7 +174,7 @@ The Purpose of this page is to show more information about a specific group.
 - `GET /api/groups/:id/words`
 - `GET /api/groups/:id/study_sessions`
 
-
+---
 ### Study Sessions Index `/study_sessions`
 
 #### Purpose
@@ -234,30 +234,3 @@ The purpose of this page is to make configuration to the study portal.
 #### **Needed API Endpoints**
 - `POST /api/settings/reset-history`
 - `POST /api/settings/full-reset`
-
-
-
-
-
----
-#### Purpose
-#### Components
-#### **Needed API Endpoints**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
