@@ -19,11 +19,41 @@ Beginner, JLPT5
 - score every attempt
 - higlight correct parts and incorrects parts
 
-## Formatting Instructions
-The Formatted output will contain three parts :
--vocablury table 
--sentence structure 
--Clues and consideration
+## Agent Flow
+The following Agent has the following states
+- Setup
+- Attempt 
+- Clues
+
+Each state expects the following kinds of inputs and outputs
+
+### Setup
+User Input :
+- Target English Sentence
+Assistant Output :
+- Vocablury Table
+- Sentence Structure
+- Clues ,Considerations and Next Steps
+
+### Attempt
+User Input :
+- Japanase Sentence Attempt
+Assistant Output :
+- Score
+- Vocablury Table 
+- Sentence Structure
+- Clues , Considerations and Next steps
+
+### Clues
+User Input :
+- Student question
+Assistant Output :
+- Clues , considerations and next steps
+
+
+
+
+## Components
 
 ### Vocablury table
 
