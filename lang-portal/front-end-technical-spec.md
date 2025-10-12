@@ -60,6 +60,7 @@ The purpose of this page is to show a collection of study activities with a thum
 The purpose of this page is to show more information about a specific study activity, including past study sessions.
 
 #### Components
+---
 - Title of the study activity.
 - Thumbnail of the study activity.
 - Description of the study activity.
@@ -76,12 +77,13 @@ The purpose of this page is to show more information about a specific study acti
 - `GET /api/study_activities/:id`
 - `GET /api/study_activities/:id/study_sessions`
 
-
+---
 ### **Study Activity Launch `/study_activities/:id/launch`**
 #### Purpose
 The purpose of this page is to launch a study activity
 
 #### Components
+---
 - Title of the study activity.
 - Launch form 
     - Select field for groups
@@ -95,12 +97,13 @@ Also after the form is submitted the page will redirect to the study session sho
 #### **Needed API Endpoints**
 - `POST /api/study_activities/:id/launch`
 
-### **Words Index `/words`**
 ---
+### **Words Index `/words`**
 #### Purpose
 The purpose of this page is to show all words in our database.
 
 #### Components
+---
 - Paginated word list
     - Columns:
         - Word (japanese)
@@ -122,6 +125,7 @@ The purpose of this page is to show all words in our database.
 The purpose of this page is to show more information about a specific word.
 
 #### Components
+---
 - Word (japanese)
 - Romaji
 - English
@@ -135,12 +139,13 @@ The purpose of this page is to show more information about a specific word.
 #### **Needed API Endpoints**
 - `GET /api/words/:id`
 
-
+---
 ### **Word Groups Index `/groups`**
 #### Purpose
 The purpose of this page is to show a list of groups in our database.
 
 #### Components
+---
 - Paginated Group List
     - Columns
         - Group Name
@@ -152,10 +157,10 @@ The purpose of this page is to show a list of groups in our database.
 
 ### **Group Show `/groups/:id`**
 #### Purpose
-
 The Purpose of this page is to show more information about a specific group.
 
 #### Components
+---
 - Group Name
 - Group statistics
     - Total Word count
@@ -170,14 +175,13 @@ The Purpose of this page is to show more information about a specific group.
 - `GET /api/groups/:id/study_sessions`
 
 
-
-
 ### Study Sessions Index `/study_sessions`
 
 #### Purpose
 The purpose of this page is to show a list of study sessions in our database.
 
 #### Components
+---
 - Paginated Study Session List
     - Columns
         - ID 
@@ -193,15 +197,12 @@ The purpose of this page is to show a list of study sessions in our database.
 - `GET /api/study_sessions`
 
 
-
-
-
-
 ---
 ### Study Session Show `/study_sessions/:id`
 #### Purpose
 The purpose of this page is to show more information about a specific study session.
 #### Components
+---
 - Study Session details
     - Activity Name
     - Group Name
@@ -222,6 +223,7 @@ The purpose of this page is to show more information about a specific study sess
 #### Purpose
 The purpose of this page is to make configuration to the study portal.
 #### Components
+---
 - Theme Selector (light , dark , system)
 - Reset History 
     - This will delete all study sessions and word review items.
