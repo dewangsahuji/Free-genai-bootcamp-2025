@@ -15,6 +15,28 @@ A language learning school wants to build a prototype of learning portal which w
 - There will be no authentication or authorization
 - Everything will be treated as a single user
 
+## Directory Structure
+
+```Text
+backend_go/
+|--cmd/
+|   |--server/
+|       |--main.go
+|--internal/
+|   |--api/
+|       |--handlers/
+|       |--middleware/
+|       |--routes/
+|   |--database/
+|       |--migrations/
+|       |--models/
+|   |--services/
+|--pkg/
+|   |--utils/
+|--configs/
+|--test/
+```
+
 
 
 
