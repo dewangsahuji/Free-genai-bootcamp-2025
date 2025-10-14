@@ -67,7 +67,20 @@ We have the following table
 
 ## API Endpoints
 
-- `GET /api/dashboard/last-study-session`
+### - `GET /api/dashboard/last-study-session`
+Response example:
+``` 
+json
+{
+  "id": 5,
+  "group_id": 2,
+  "last_used": "2025-10-13T18:45:00Z",
+  "study_activity_id": 1,
+  "group_id":789,
+  "group_name": "JLPT N5",
+} 
+```
+
 - `GET /api/dashboard/study-progress`
 - `GET /api/dashboard/quick-stats`
 
